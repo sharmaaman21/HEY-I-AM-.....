@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .main{
+    background-color: green;
+    height: 500px;
+    color: white;
+    font-size: 99px;
+    display: none;
+}
+@media (min-width:320px) and (max-width:480px)
+{
+    #one{
+        display: block;
+        background-color: deeppink;
+    }
+}
+@media (min-width:481px) and (max-width:768px)
+{
+    #two{
+        display: block;
+        background-color: darkblue;
+    }
+}
+@media (min-width:769px) and (max-width:1024px)
+{
+    #three{
+        display: block;
+        background-color: rgb(28, 162, 39);
+    }
+}
+@media (min-width:1025px) and (max-width:1200px)
+{
+    #four{
+        display: block;
+        background-color: rgb(182, 179, 26);
+    }
+}
+@media (min-width:1201px)
+{
+    #five{
+        display: block;
+        background-color: rgb(139, 0, 134);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="main" id="one"> Hey I am Mobile</div>
+    <div class="main" id="two"> Hey I am Tablet</div>
+    <div class="main" id="three"> Hey I am Small laptop</div>
+    <div class="main" id="four"> Hey I am Desktop</div>
+    <div class="main" id="five"> Hey I am 4k</div>
+</body>
+</html>
